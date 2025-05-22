@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<link rel="stylesheet" href="boot/boot/css/bootstrap.min.css">
+<style>
+.navbar{
+        background-color: rgb(91, 91, 119);
+        display: flex;
+        text-align: center;
+        font-size: 16px;
+        gap: 8px;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    .navbar a{
+        text-align: center;
+        justify-content: space-around;
+        text-decoration: none;
+        color: white;
+        border-radius: 6px;
+        display: flex;
+        font-size: 30px;
+        padding: 30px;
+    }
+    .navbar a:hover{
+        background-color: grey;
+    }
+    body{
+        display: block;
+        padding: 30px;
+    }
+    .main{
+      margin-left: 220px;
+      padding: 30px;
+    }
+</style>
+<body>
+    
+    <div class="navbar-expand-lg navabr-dark bg-dark">
+        <a href="dashboard.html">Library system</a>
+        <a href="manage-users.html">Manage User</a>
+        <a href="Manage books.html">Manage books</a>
+        <a href="Manage Mambers.html">Manage Mambers</a>
+        <a href="Book insuance.html">Book insuance</a>
+        <a href="Manage Returns.html">Manage Returns</a>
+        <a href="Reports.html">Reports</a>
+    </div>
+    <div class="main">
+        <h5>Manage User</h5>
+        <a href="#" class="btn btn-primary" >Add new user</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Role</th>
+                    <th>Email</th>
+                    <th><a href="#" class="btn btn-primary">Edit</a></th>
+                    <th><a href="#" class="btn btn-danger">Delete</a></th>
+                    <th><a href="#" class="btn btn-warning">Status</a></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style border ="1">
+                    <td>Jane Doe</td>
+                    <td>Admin</td>
+                    <td>jane@example.com</td>
+                    <td><a href="#" class="btn btn-primary">Edit</a></td>
+                    <td><a href="#" class="btn btn-danger">Delete</a></td>
+                    <td><a href="#" class="btn btn-warning">Block</a></td>
+                </tr>
+                <tr>
+                    <td>Jane Doe</td>
+                    <td>Librarian</td>
+                    <td>jhn@example.com</td>
+                    <td><a href="#" class="btn btn-primary">Edit</a></td>
+                    <td><a href="#" class="btn btn-danger">Delete</a></td>
+                    <td><a href="#" class="btn btn-sucsses">Activate</a></td>
+                </tr>
+                <tr>
+                    <td>Mary johnson</td>
+                    <td>Member</td>
+                    <td>mayr@example.com</td>
+                    <td><a href="#" class="btn btn-primary">Edit</a></td>
+                    <td><a href="#" class="btn btn-danger">Delete</a></td>
+                    <td><a href="#" class="btn btn-warning">Block</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+<div class="navbar navbar-expand-lg navabr-dark bg-dark">
+        <div class="container-fluid">
+          <div class="foter"style="align-content: center; color: white;">
+ <center>&copy;2025 Library Management System All rights reserved</center>
+ </div>>
+</html>
